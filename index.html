@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API for Flickr</title>
+
+  <link rel="stylesheet" href="style/stylesheet.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript"  src="script.js"></script>
+</head>
+<body>
+
+  <div class="container">
+
+  <header>
+    <h1>API for Flickr</h1>
+  </header>
+
+  <main>
+
+    <div class="card"> 
+      <div class="input-group">
+        <label for="flickr_search">Search for images:</label> 
+        <input type="text" id="flickr_search"/> 
+      </div>  
+
+       <div id="flickr_container"></div>
+
+
+      <button id="loadImagesBtn">Load Images From Flickr API</button> 
+      <button id="refreshBtn">Refresh</button>
+    </div>
+
+    
+  </main> 
+  
+  </div>
+  
+  
+</body>
+</html>

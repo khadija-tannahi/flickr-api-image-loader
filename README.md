@@ -19,3 +19,7 @@ This project is a simple web application that uses the Flickr API to fetch and d
 1. User clicks the **"Load Images"** button.
 2. jQuery sends a request to the Flickr public feed API.
 3. Images are retrieved and displayed dynamically on the page.
+
+ ## Live Demo
+
+[https://khadija-tannahi.github.io/flickr-api-image-loader/](https://khadija-tannahi.github.io/flickr-api-image-loader/)
